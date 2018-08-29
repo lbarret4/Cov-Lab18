@@ -50,14 +50,15 @@ class Motorcycle extends Vehicle{
     }
 }
 
-let v1 = new Vehicle(4,'Toyota','car')
+let v1 = new Vehicle(4,'Toyota','car');
 let truck1 = new Truck('Chevrolet',2);
 let truck2 = new Truck('GEM',4);
 let sedan1 = new Sedan('Honda','small',36);
 let sedan2 = new Sedan('Cadillac','medium',27);
 let motorcycle1 = new Motorcycle('Suzuki');
-let motorcycle2 = new Motorcycle('Harley')
+let motorcycle2 = new Motorcycle('Harley');
 let vehicles=[v1,truck1,truck2,sedan1,sedan2,motorcycle1,motorcycle2];
     
 for(let vehicle of vehicles){
     vehicle.aboutVehicle();
+}
